@@ -1,0 +1,101 @@
+INFO - 2023-10-16 11:50:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:52:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:52:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:54:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-16 11:54:37 --> mysqli_sql_exception: Table 'pjl.progres_produksi' doesn't exist in D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `progres...', 0)
+#1 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `progres...')
+#2 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `progres...')
+#3 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `progres...', Array, false)
+#4 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Models\ProgresProduksiModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Controllers\ProgresProduksi.php(14): App\Models\ProgresProduksiModel->getProgresProduksi()
+#7 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\progresproduksi->index()
+#8 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\progresproduksi))
+#9 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\P...')
+#12 {main}
+CRITICAL - 2023-10-16 11:54:37 --> Table 'pjl.progres_produksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != \'selesai\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != \'selesai\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != \'selesai\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != :status_produksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ProgresProduksiModel.php(18): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\ProgresProduksi.php(14): App\Models\ProgresProduksiModel->getProgresProduksi()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\progresproduksi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\progresproduksi))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-10-16 11:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-10-16 11:54:47 --> mysqli_sql_exception: Table 'pjl.progres_produksi' doesn't exist in D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `progres...', 0)
+#1 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `progres...')
+#2 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `progres...')
+#3 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `progres...', Array, false)
+#4 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Models\ProgresProduksiModel.php(18): CodeIgniter\Model->__call('get', Array)
+#6 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Controllers\ProgresProduksi.php(14): App\Models\ProgresProduksiModel->getProgresProduksi()
+#7 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(932): App\Controllers\progresproduksi->index()
+#8 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\progresproduksi))
+#9 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\P...')
+#12 {main}
+CRITICAL - 2023-10-16 11:54:47 --> Table 'pjl.progres_produksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != \'selesai\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != \'selesai\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != \'selesai\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `progres_produksi`.*, `permintaan_produksi`.`id_produksi`, `permintaan_produksi`.`nama_barang`, `permintaan_produksi`.`jumlah`
+FROM `progres_produksi`
+JOIN `permintaan_produksi` ON `progres_produksi`.`id_produksi` = `permintaan_produksi`.`id_produksi`
+WHERE `status_produksi` != :status_produksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(836): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Models\ProgresProduksiModel.php(18): CodeIgniter\Model->__call('get', [])
+ 7 APPPATH\Controllers\ProgresProduksi.php(14): App\Models\ProgresProduksiModel->getProgresProduksi()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\progresproduksi->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\progresproduksi))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-10-16 11:54:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:54:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:54:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 11:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:14:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:23:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-10-16 12:23:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,566 @@
+INFO - 2023-07-11 11:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:45:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 11:45:57 --> Invalid file: "modernize/master/request/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/master/request/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/master/request/index', [], true)
+ 3 APPPATH\Controllers\Request.php(13): view('modernize/master/request/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 11:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 11:48:19 --> Invalid file: "modernize/master/request/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/master/request/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/master/request/index', [], true)
+ 3 APPPATH\Controllers\Request.php(13): view('modernize/master/request/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 11:49:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-11 11:49:21 --> mysqli_sql_exception: Unknown column 'id_ruquest' in 'order clause' in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\RequestModel.php(23): CodeIgniter\BaseModel->first()
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Request.php(19): App\Models\RequestModel->getLastRequest()
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Request->input()
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#13 {main}
+CRITICAL - 2023-07-11 11:49:21 --> Unknown column 'id_ruquest' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `request`
+ORDER BY `id_ruquest` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `request`
+ORDER BY `id_ruquest` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `request`
+ORDER BY `id_ruquest` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `request`
+ORDER BY `id_ruquest` DESC
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\RequestModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Request.php(19): App\Models\RequestModel->getLastRequest()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 11:49:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 11:50:28 --> "request" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 619.
+ 1 SYSTEMPATH\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('request')
+ 2 SYSTEMPATH\Validation\Validation.php(118): CodeIgniter\Validation\Validation->loadRuleGroup('request')
+ 3 APPPATH\Controllers\Request.php(66): CodeIgniter\Validation\Validation->run([...], 'request')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 11:51:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:53:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:54:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 11:54:27 --> "request" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 619.
+ 1 SYSTEMPATH\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('request')
+ 2 SYSTEMPATH\Validation\Validation.php(118): CodeIgniter\Validation\Validation->loadRuleGroup('request')
+ 3 APPPATH\Controllers\Request.php(66): CodeIgniter\Validation\Validation->run([...], 'request')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 11:54:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 11:59:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:01:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:01:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:01:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:03:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:03:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:04:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:05:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:09:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:10:01 --> Undefined variable: id_transaksi
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:10:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:10:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:10:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:22:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:24:16 --> Undefined variable: id_transaksi
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:24:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:24:23 --> Undefined variable: id_transaksi
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:25:29 --> Undefined variable: id_transaksi
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:28:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:28:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:28:28 --> Undefined variable: pengiriman
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengiriman', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:31:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:31:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:31:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:32:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:32:19 --> Undefined variable: pengiriman
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengiriman', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:37:16 --> Undefined variable: pengiriman
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengiriman', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(50): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:44:38 --> Undefined variable: data
+in APPPATH\Controllers\Pengiriman.php on line 56.
+ 1 APPPATH\Controllers\Pengiriman.php(56): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Controllers\\Pengiriman.php', 56, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:45:09 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:45:12 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:46:15 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:46:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:46:18 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:46:42 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 91.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:47:02 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:52:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:53:52 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:56:35 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:58:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 12:58:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:58:26 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 12:58:46 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 12:59:18 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 92.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 12:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:00:05 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:00:13 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 86.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:00:32 --> Undefined variable: pengiriman
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengiriman', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:01:01 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 91.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:01:12 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 91.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:04:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:04:05 --> Undefined variable: pengiriman
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengiriman', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:04:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:04:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:05:21 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(56): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:16:56 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(57): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:17:40 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(57): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:26:36 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 90.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(55): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:28:10 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 91.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(55): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-11 13:28:37 --> syntax error, unexpected end of file
+in APPPATH\Views\modernize\pengiriman\input.php on line 91.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(55): view('modernize/pengiriman/input', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:28:55 --> Undefined variable: pengiriman
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: pengiriman', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(55): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:29:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:29:52 --> Undefined index: id_transaksi
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(55): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-11 13:30:07 --> Undefined index: id_transaksi
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: id_transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(55): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-11 13:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:32:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:34:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:34:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:35:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:37:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:38:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:43:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:43:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:44:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:44:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:44:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:44:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:44:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:48:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-11 13:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

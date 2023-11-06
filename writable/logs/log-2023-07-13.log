@@ -1,0 +1,535 @@
+INFO - 2023-07-13 12:30:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:30:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:30:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:31:05 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R002')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:41:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:41:30 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:35 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:36 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:37 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:37 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:38 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:41 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:42:43 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 42.
+ 1 APPPATH\Views\modernize\request\edit.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 42, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:43:25 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 52.
+ 1 APPPATH\Views\modernize\request\edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:43:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:43:26 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 52.
+ 1 APPPATH\Views\modernize\request\edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:43:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 12:43:27 --> Undefined variable: transaksi
+in APPPATH\Views\modernize\request\edit.php on line 52.
+ 1 APPPATH\Views\modernize\request\edit.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: transaksi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\request\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/edit', [], true)
+ 5 APPPATH\Controllers\Request.php(86): view('modernize/request/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->edit('R001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-13 12:44:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:47:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:48:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:48:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:49:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:50:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:51:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:51:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 12:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:02:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:02:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:09:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:09:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:09:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:31:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 13:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:02:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:02:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 17:03:03 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'pjl', 3306, '', 0)
+#1 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Controllers\Auth.php(22): CodeIgniter\BaseModel->first()
+#7 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->auth()
+#8 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Controllers\Auth.php(22): CodeIgniter\BaseModel->first()
+#6 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->auth()
+#7 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\P...')
+#11 {main}
+CRITICAL - 2023-07-13 17:03:03 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(22): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 17:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-13 17:03:14 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it.
+ in D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:174
+Stack trace:
+#0 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(174): mysqli->real_connect('localhost', 'root', '', 'pjl', 3306, '', 0)
+#1 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Controllers\Auth.php(22): CodeIgniter\BaseModel->first()
+#7 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->auth()
+#8 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#9 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\P...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it.
+ in D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#5 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\app\Controllers\Auth.php(22): CodeIgniter\BaseModel->first()
+#6 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Auth->auth()
+#7 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#8 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\SEMESTER 4\Peng.Aplikasi Enterprise\PENJUALAN\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\P...')
+#11 {main}
+CRITICAL - 2023-07-13 17:03:14 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `username` = :username:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\Auth.php(22): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->auth()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 17:03:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:15:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:30:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:30:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:39:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:39:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 17:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:00:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:18:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:32:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:32:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:49:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:49:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:49:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:49:48 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:51:15 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:53:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:53:54 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:53:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:53:56 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:53:57 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:53:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:53:58 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:54:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:54:39 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:54:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:54:40 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:54:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:54:41 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:54:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:54:43 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 18:54:47 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(53): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 18:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:58:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:59:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 18:59:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-13 19:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:30:15 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 19:30:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:30:19 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')
+INFO - 2023-07-13 19:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-13 19:30:21 --> Undefined variable: data_transaksi
+in APPPATH\Views\modernize\request\input.php on line 55.
+ 1 APPPATH\Views\modernize\request\input.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: data_transaksi', 'D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php', 55, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\app\\Views\\modernize\\request\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/request/input', [], true)
+ 5 APPPATH\Controllers\Request.php(54): view('modernize/request/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Request->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Request))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\Peng.Aplikasi Enterprise\\PENJUALAN\\ci4app\\public\\index.php')

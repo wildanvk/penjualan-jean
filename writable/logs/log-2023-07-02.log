@@ -1,0 +1,50 @@
+INFO - 2023-07-02 12:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 12:23:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 12:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 12:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-02 12:24:28 --> mysqli_sql_exception: Unknown column 'barangmasukmentah.idSupplier' in 'on clause' in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\BarangMasukMentah.php(41): CodeIgniter\BaseModel->paginate(10, 'barangmasukment...')
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#12 {main}
+CRITICAL - 2023-07-02 12:24:28 --> Unknown column 'barangmasukmentah.idSupplier' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `barangmasukmentah`
+JOIN `barangmentah` ON `barangmentah`.`idBarangMentah` = `barangmasukmentah`.`idBarangMentah`
+JOIN `supplier` ON `supplier`.`idSupplier` = `barangmasukmentah`.`idSupplier`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `barangmasukmentah`
+JOIN `barangmentah` ON `barangmentah`.`idBarangMentah` = `barangmasukmentah`.`idBarangMentah`
+JOIN `supplier` ON `supplier`.`idSupplier` = `barangmasukmentah`.`idSupplier`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `barangmasukmentah`
+JOIN `barangmentah` ON `barangmentah`.`idBarangMentah` = `barangmasukmentah`.`idBarangMentah`
+JOIN `supplier` ON `supplier`.`idSupplier` = `barangmasukmentah`.`idSupplier`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `barangmasukmentah`
+JOIN `barangmentah` ON `barangmentah`.`idBarangMentah` = `barangmasukmentah`.`idBarangMentah`
+JOIN `supplier` ON `supplier`.`idSupplier` = `barangmasukmentah`.`idSupplier`', [], false)
+ 5 SYSTEMPATH\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1188): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\BarangMasukMentah.php(41): CodeIgniter\BaseModel->paginate(10, 'barangmasukmentah')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-02 12:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 13:13:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 13:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-02 13:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

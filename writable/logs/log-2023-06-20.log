@@ -1,0 +1,353 @@
+INFO - 2023-06-20 14:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:01:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:01:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:02:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:04:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:04:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:04:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 14:13:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:05:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:05:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:05:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:06:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 15:07:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:28:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:28:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:28:41 --> Undefined variable $nextOrderNumber
+in APPPATH\Controllers\BarangMasukMentah.php on line 60.
+ 1 APPPATH\Controllers\BarangMasukMentah.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextOrderNumber', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Controllers\\BarangMasukMentah.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->input()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:30:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:30:38 --> Undefined variable $nextOrderNumber
+in APPPATH\Controllers\BarangMasukMentah.php on line 61.
+ 1 APPPATH\Controllers\BarangMasukMentah.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextOrderNumber', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Controllers\\BarangMasukMentah.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->input()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:31:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:33:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:33:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:33:49 --> Call to undefined method App\Models\BarangMasukMentahModel::insertStokBarangMentah
+in SYSTEMPATH\Model.php on line 842.
+ 1 APPPATH\Controllers\BarangMasukMentah.php(88): CodeIgniter\Model->__call('insertStokBarangMentah', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->store()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:34:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-20 16:34:26 --> mysqli_sql_exception: Column 'keterangan' cannot be null in D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\app\Models\BarangMasukMentahModel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\app\Controllers\BarangMasukMentah.php(88): App\Models\BarangMasukMentahModel->insertBarangMasukMentah(Array)
+#6 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->store()
+#7 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+#8 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\...')
+#11 {main}
+CRITICAL - 2023-06-20 16:34:26 --> Column 'keterangan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (\'TMBM-200623-001\', \'2023-06-20\', \'BM001\', \'BM001\', \'15\', \'1500000\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (\'TMBM-200623-001\', \'2023-06-20\', \'BM001\', \'BM001\', \'15\', \'1500000\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (\'TMBM-200623-001\', \'2023-06-20\', \'BM001\', \'BM001\', \'15\', \'1500000\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (:idTransaksi:, :tanggal:, :idBarangMentah:, :idSupplier:, :jumlah:, :harga:, :keterangan:)', [...], false)
+ 5 APPPATH\Models\BarangMasukMentahModel.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\BarangMasukMentah.php(88): App\Models\BarangMasukMentahModel->insertBarangMasukMentah([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->store()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:37:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:37:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-20 16:38:13 --> mysqli_sql_exception: Column 'keterangan' cannot be null in D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ba...', 0)
+#1 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ba...')
+#2 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ba...')
+#3 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ba...', Array, false)
+#4 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\app\Models\BarangMasukMentahModel.php(40): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\app\Controllers\BarangMasukMentah.php(88): App\Models\BarangMasukMentahModel->insertBarangMasukMentah(Array)
+#6 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->store()
+#7 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+#8 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 D:\Kuliah\4M51\Pengembangan Aplikasi Enterprise\sig-main-update3\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\...')
+#11 {main}
+CRITICAL - 2023-06-20 16:38:13 --> Column 'keterangan' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (\'TMBM-200623-001\', \'2023-06-20\', \'BM001\', \'BM001\', \'15\', \'1500000\', NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (\'TMBM-200623-001\', \'2023-06-20\', \'BM001\', \'BM001\', \'15\', \'1500000\', NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (\'TMBM-200623-001\', \'2023-06-20\', \'BM001\', \'BM001\', \'15\', \'1500000\', NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `barangmasukmentah` (`idTransaksi`, `tanggal`, `idBarangMentah`, `idSupplier`, `jumlah`, `harga`, `keterangan`) VALUES (:idTransaksi:, :tanggal:, :idBarangMentah:, :idSupplier:, :jumlah:, :harga:, :keterangan:)', [...], false)
+ 5 APPPATH\Models\BarangMasukMentahModel.php(40): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\BarangMasukMentah.php(88): App\Models\BarangMasukMentahModel->insertBarangMasukMentah([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->store()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:38:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:38:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:40:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:48:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:48:53 --> Undefined array key "idStokBarangMentah"
+in APPPATH\Views\modernize\barangmasuk\barangmentah\index.php on line 88.
+ 1 APPPATH\Views\modernize\barangmasuk\barangmentah\index.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idStokBarangMentah"', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\index.php', 88)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/index', [], true)
+ 5 APPPATH\Controllers\BarangMasukMentah.php(16): view('modernize/barangmasuk/barangmentah/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:49:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:49:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:49:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:52:20 --> Call to undefined function formatRupiah()
+in APPPATH\Views\modernize\barangmasuk\barangmentah\index.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/index', [], true)
+ 4 APPPATH\Controllers\BarangMasukMentah.php(16): view('modernize/barangmasuk/barangmentah/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:53:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:53:17 --> Call to undefined function formatRupiah()
+in APPPATH\Views\modernize\barangmasuk\barangmentah\index.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/index', [], true)
+ 4 APPPATH\Controllers\BarangMasukMentah.php(16): view('modernize/barangmasuk/barangmentah/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:54:09 --> Attempt to read property "transaction_id" on array
+in APPPATH\Controllers\BarangMasukMentah.php on line 35.
+ 1 APPPATH\Controllers\BarangMasukMentah.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "transaction_id" on array', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Controllers\\BarangMasukMentah.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->input()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:54:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:54:17 --> Call to undefined function formatRupiah()
+in APPPATH\Views\modernize\barangmasuk\barangmentah\index.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/index', [], true)
+ 4 APPPATH\Controllers\BarangMasukMentah.php(16): view('modernize/barangmasuk/barangmentah/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:54:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:54:18 --> Call to undefined function formatRupiah()
+in APPPATH\Views\modernize\barangmasuk\barangmentah\index.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/index', [], true)
+ 4 APPPATH\Controllers\BarangMasukMentah.php(16): view('modernize/barangmasuk/barangmentah/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 16:57:16 --> Call to undefined function formatRupiah()
+in APPPATH\Views\modernize\barangmasuk\barangmentah\index.php on line 85.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/index', [], true)
+ 4 APPPATH\Controllers\BarangMasukMentah.php(16): view('modernize/barangmasuk/barangmentah/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 16:59:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 16:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:00:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 17:00:22 --> Attempt to read property "transaction_id" on array
+in APPPATH\Controllers\BarangMasukMentah.php on line 35.
+ 1 APPPATH\Controllers\BarangMasukMentah.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "transaction_id" on array', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Controllers\\BarangMasukMentah.php', 35)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->input()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 17:00:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:02:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:02:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:02:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:04:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:04:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:04:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:05:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:06:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:07:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:07:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:07:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:07:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 17:07:41 --> Undefined variable $nextOrderNumber
+in APPPATH\Controllers\BarangMasukMentah.php on line 60.
+ 1 APPPATH\Controllers\BarangMasukMentah.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $nextOrderNumber', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Controllers\\BarangMasukMentah.php', 60)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->input()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 17:08:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:09:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:09:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:09:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:10:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:10:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:10:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:10:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:15:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:15:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:15:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:15:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:16:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:16:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:22:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:22:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:22:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:23:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:23:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 17:23:09 --> Undefined variable $stokbarangmentah
+in APPPATH\Views\modernize\barangmasuk\barangmentah\edit.php on line 43.
+ 1 APPPATH\Views\modernize\barangmasuk\barangmentah\edit.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stokbarangmentah', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\edit.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/edit', [], true)
+ 5 APPPATH\Controllers\BarangMasukMentah.php(108): view('modernize/barangmasuk/barangmentah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->edit('TMBM-200623-001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 17:23:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 17:23:24 --> Undefined variable $stokbarangmentah
+in APPPATH\Views\modernize\barangmasuk\barangmentah\edit.php on line 43.
+ 1 APPPATH\Views\modernize\barangmasuk\barangmentah\edit.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stokbarangmentah', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\edit.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/edit', [], true)
+ 5 APPPATH\Controllers\BarangMasukMentah.php(108): view('modernize/barangmasuk/barangmentah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->edit('TMBM-200623-001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 17:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-20 17:23:27 --> Undefined variable $stokbarangmentah
+in APPPATH\Views\modernize\barangmasuk\barangmentah\edit.php on line 43.
+ 1 APPPATH\Views\modernize\barangmasuk\barangmentah\edit.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $stokbarangmentah', 'D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\edit.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\app\\Views\\modernize\\barangmasuk\\barangmentah\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/barangmasuk/barangmentah/edit', [], true)
+ 5 APPPATH\Controllers\BarangMasukMentah.php(108): view('modernize/barangmasuk/barangmentah/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\BarangMasukMentah->edit('TMBM-200623-001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\BarangMasukMentah))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Kuliah\\4M51\\Pengembangan Aplikasi Enterprise\\sig-main-update3\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-06-20 17:23:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:26:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:27:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:27:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:27:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 17:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 18:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 18:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 18:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 18:09:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-20 18:09:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

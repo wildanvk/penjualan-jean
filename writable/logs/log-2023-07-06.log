@@ -1,0 +1,1360 @@
+INFO - 2023-07-06 01:56:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 01:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:56:37 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:43 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:45 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:45 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:46 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:46 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:47 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:47 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:48 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:48 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:49 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 01:59:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 01:59:49 --> Undefined index: jumlah_batang
+in APPPATH\Views\modernize\transaksi\edit.php on line 83.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: jumlah_batang', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 83, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 02:00:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:00:30 --> Undefined index: status
+in APPPATH\Views\modernize\transaksi\edit.php on line 97.
+ 1 APPPATH\Views\modernize\transaksi\edit.php(97): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index: status', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php', 97, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\transaksi\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/transaksi/edit', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(88): view('modernize/transaksi/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 02:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 02:02:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 02:02:29 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:09:44 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:09:45 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:09:46 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:35 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:36 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:37 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:38 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:38 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:39 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:40 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:40 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:41 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 02:16:42 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 03:39:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:39:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:39:35 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 03:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:39:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:39:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:39:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:39:59 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 03:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:40:10 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 03:40:44 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 03:40:45 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 03:40:47 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 03:40:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:40:54 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 03:47:20 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 03:52:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 03:52:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 03:52:50 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 03:53:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 04:10:07 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 04:40:50 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 05:03:42 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:03:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:03:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:03:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 05:03:54 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 05:06:54 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:11:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-06 05:11:55 --> mysqli_sql_exception: Table 'pjl.supplier' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\SupplierModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Supplier.php(12): App\Models\SupplierModel->getSupplier()
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Supplier->index()
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#13 {main}
+CRITICAL - 2023-07-06 05:11:55 --> Table 'pjl.supplier' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `supplier`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `supplier`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `supplier`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `supplier`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SupplierModel.php(14): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Supplier.php(12): App\Models\SupplierModel->getSupplier()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Supplier->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 05:12:04 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:16:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:16:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 05:16:14 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 05:22:15 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 05:22:16 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 05:22:17 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:22:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:22:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 05:22:25 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:23:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:23:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 05:23:26 --> Too few arguments to function App\Controllers\Transaksi::edit(), 0 passed in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php on line 934 and exactly 1 expected
+in APPPATH\Controllers\Transaksi.php on line 84.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 05:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:27:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:30:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:30:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 05:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-06 06:50:46 --> mysqli_sql_exception: Table 'sig.transaksi' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\TransaksiModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Transaksi.php(87): App\Models\TransaksiModel->getTransaksi('T001')
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#12 {main}
+CRITICAL - 2023-07-06 06:50:46 --> Table 'sig.transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Models\TransaksiModel.php(16): CodeIgniter\Model->__call('getWhere', [...])
+ 7 APPPATH\Controllers\Transaksi.php(87): App\Models\TransaksiModel->getTransaksi('T001')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+ERROR - 2023-07-06 06:50:49 --> mysqli_sql_exception: Table 'sig.transaksi' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\TransaksiModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Transaksi.php(87): App\Models\TransaksiModel->getTransaksi('T001')
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#12 {main}
+CRITICAL - 2023-07-06 06:50:49 --> Table 'sig.transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Models\TransaksiModel.php(16): CodeIgniter\Model->__call('getWhere', [...])
+ 7 APPPATH\Controllers\Transaksi.php(87): App\Models\TransaksiModel->getTransaksi('T001')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+ERROR - 2023-07-06 06:50:55 --> mysqli_sql_exception: Table 'sig.transaksi' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(840): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\TransaksiModel.php(16): CodeIgniter\Model->__call('getWhere', Array)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Transaksi.php(87): App\Models\TransaksiModel->getTransaksi('T001')
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#12 {main}
+CRITICAL - 2023-07-06 06:50:55 --> Table 'sig.transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = \'T001\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1749): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`
+WHERE `id_transaksi` = :id_transaksi:', [...], false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->getWhere([...])
+ 6 APPPATH\Models\TransaksiModel.php(16): CodeIgniter\Model->__call('getWhere', [...])
+ 7 APPPATH\Controllers\Transaksi.php(87): App\Models\TransaksiModel->getTransaksi('T001')
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->edit('T001')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+ERROR - 2023-07-06 06:50:56 --> mysqli_sql_exception: Table 'sig.transaksi' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\TransaksiModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Transaksi.php(12): App\Models\TransaksiModel->getTransaksi()
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Transaksi->index()
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#13 {main}
+CRITICAL - 2023-07-06 06:50:56 --> Table 'sig.transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaksi`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaksi`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaksi`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\TransaksiModel.php(14): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Transaksi.php(12): App\Models\TransaksiModel->getTransaksi()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+ERROR - 2023-07-06 06:50:59 --> mysqli_sql_exception: Table 'sig.transaksi' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\TransaksiModel.php(23): CodeIgniter\BaseModel->first()
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Transaksi.php(19): App\Models\TransaksiModel->getLastTransaksi()
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Transaksi->input()
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#13 {main}
+CRITICAL - 2023-07-06 06:50:59 --> Table 'sig.transaksi' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `transaksi`
+ORDER BY `id_transaksi` DESC
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `transaksi`
+ORDER BY `id_transaksi` DESC
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `transaksi`
+ORDER BY `id_transaksi` DESC
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `transaksi`
+ORDER BY `id_transaksi` DESC
+ LIMIT 1', [], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Models\TransaksiModel.php(23): CodeIgniter\BaseModel->first()
+ 8 APPPATH\Controllers\Transaksi.php(19): App\Models\TransaksiModel->getLastTransaksi()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Transaksi->input()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 06:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:52:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:52:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 06:52:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:06:54 --> Invalid file: "modernize/pengiriman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/pengiriman/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/index', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(13): view('modernize/pengiriman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 07:14:23 --> Invalid file: "modernize/pengiriman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/pengiriman/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/index', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(13): view('modernize/pengiriman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:14:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:14:28 --> Invalid file: "modernize/pengiriman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/pengiriman/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/index', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(13): view('modernize/pengiriman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+CRITICAL - 2023-07-06 07:18:52 --> Invalid file: "modernize/pengiriman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/pengiriman/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/index', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(13): view('modernize/pengiriman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:18:57 --> Invalid file: "modernize/pengiriman/index.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modernize/pengiriman/index.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/index', [], true)
+ 3 APPPATH\Controllers\Pengiriman.php(13): view('modernize/pengiriman/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:33:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:36:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:36:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:44:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:51:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:51:00 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:53:36 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:53:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:53:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:53:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:53:55 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:56:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 07:56:17 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 07:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:56:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:56:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:56:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:56:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 07:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:07:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:07:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:12:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:13:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:13:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:13:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 08:18:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:39:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:42:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:42:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:42:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:43:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:43:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:43:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 09:43:25 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 09:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 09:44:42 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 09:46:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 09:46:03 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 09:46:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 09:46:24 --> Undefined variable: resi
+in APPPATH\Views\modernize\pengiriman\input.php on line 58.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(58): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: resi', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 58, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 09:46:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 09:48:29 --> "pengiriman" is not a validation rules group.
+in SYSTEMPATH\Validation\Validation.php on line 619.
+ 1 SYSTEMPATH\Validation\Validation.php(619): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('pengiriman')
+ 2 SYSTEMPATH\Validation\Validation.php(118): CodeIgniter\Validation\Validation->loadRuleGroup('pengiriman')
+ 3 APPPATH\Controllers\Pengiriman.php(65): CodeIgniter\Validation\Validation->run([...], 'pengiriman')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->store()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 09:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 09:53:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-06 10:02:22 --> mysqli_sql_exception: Table 'pjl.supplier' doesn't exist in D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Models\SupplierModel.php(14): CodeIgniter\BaseModel->findAll()
+#7 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\app\Controllers\Supplier.php(12): App\Models\SupplierModel->getSupplier()
+#8 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Supplier->index()
+#9 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#10 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\SEMESTER 4\E-Bussines\Praktik\sig-main\ci4app\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E...')
+#13 {main}
+CRITICAL - 2023-07-06 10:02:22 --> Table 'pjl.supplier' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `supplier`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `supplier`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `supplier`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `supplier`', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\SupplierModel.php(14): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Supplier.php(12): App\Models\SupplierModel->getSupplier()
+ 9 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Supplier->index()
+10 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+11 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 10:03:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:03:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:03:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:06:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 10:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:42:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:43:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:43:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:53:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:54:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:55:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:55:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 12:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:05:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:50 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:51 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:05:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:52 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:53 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:53 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:54 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:05:54 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:06:27 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:06:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:06:29 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:08:32 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:08:33 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:08:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:08:37 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:14:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:14:53 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:14:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:14:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:14:59 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:15:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:15:42 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:16:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:16:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:16:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:16:41 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:17:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:18:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:18:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:25:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:29:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:29:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:29:23 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:29:55 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:29:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:29:59 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:32:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:32:36 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:32:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:32:37 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:32:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:32:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:32:58 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:33:54 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:33:57 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:36:02 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:36:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-06 13:36:37 --> Undefined variable: id_pesanan
+in APPPATH\Views\modernize\pengiriman\input.php on line 52.
+ 1 APPPATH\Views\modernize\pengiriman\input.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: id_pesanan', 'D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php', 52, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\app\\Views\\modernize\\pengiriman\\input.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('modernize/pengiriman/input', [], true)
+ 5 APPPATH\Controllers\Pengiriman.php(52): view('modernize/pengiriman/input', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Pengiriman->input()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pengiriman))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\SEMESTER 4\\E-Bussines\\Praktik\\sig-main\\ci4app\\public\\index.php')
+INFO - 2023-07-06 13:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:50:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:51:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-06 13:51:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
