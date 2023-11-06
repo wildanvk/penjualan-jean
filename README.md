@@ -1,5 +1,16 @@
 # CodeIgniter 4 Application Starter
 
+## Setup
+
+1. Download file Codeigniter 4 ini lalu ekstrak di folder yang Anda inginkan.
+2. Jalankan Xampp dan buat database baru dengan nama pjl.
+3. Import file pjl.sql ke database pjl yang telah dibuat.
+4. Buka folder aplikasi Anda menggunakan VSCode.
+5. Jalankan perintah `php spark serve` menggunakan Git bash atau terminal VSCode.
+6. Buka browser dan ketikkan `localhost:8080` pada address bar.
+
+Note : Halaman default dari aplikasi penjualan ini adalah halaman katalog untuk user, jika ingin mengakses halaman admin, silakan ketikkan `localhost:8080/auth` atau `localhost:8080/dashboard` pada address bar.
+
 ## What is CodeIgniter?
 
 CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
@@ -23,18 +34,13 @@ When updating, check the release notes to see if there are any changes you might
 to your `app` folder. The affected files can be copied or merged from
 `vendor/codeigniter4/framework/app`.
 
-## Setup
-
-Copy `env` to `.env` and tailor for your app, specifically the baseURL
-and any database settings.
-
 ## Important Change with index.php
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
+`index.php` is no longer in the root of the project! It has been moved inside the _public_ folder,
 for better security and separation of components.
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
+This means that you should configure your web server to "point" to your project's _public_ folder, and
+not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter _public/..._, as the rest of your logic and the
 framework are exposed.
 
 **Please** read the user guide for a better explanation of how CI4 works!
