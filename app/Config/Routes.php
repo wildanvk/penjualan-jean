@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 // $routes->get('/', 'Auth::index');
 // $routes->resource("transaksi"); // get, put, create, delete
 $routes->get('/', 'Katalog::index');
+$routes->get('/katalog', 'Katalog::index');
+$routes->get('/admin', 'Dashboard::index');
 
 /*
  * --------------------------------------------------------------------

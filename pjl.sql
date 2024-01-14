@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 06, 2023 at 10:23 AM
+-- Generation Time: Jan 14, 2024 at 03:49 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -62,13 +62,13 @@ CREATE TABLE `produk` (
 --
 
 INSERT INTO `produk` (`id_produk`, `gambar_produk`, `nama_produk`, `harga_produk`, `deskripsi`, `jumlah_produk`, `status`) VALUES
-(1, '1699259882_4472b50d008b5595b755.jpeg', 'Chinos Standar 33-36', 500000, 'Jean Chinos dengan ukuran 33-36', 20, 'Aktif'),
 (3, '1699259917_e1c114bcb47ababde421.jpeg', 'Chinos Standar 33-38', 500000, 'Jean Chinos dengan ukuran 33-38', 20, 'Aktif'),
 (6, '1699260068_93162fe41033d933a135.jpeg', 'Casual 28-33', 500000, 'Jean Casual ukuran 28-33', 20, 'Aktif'),
 (7, '1699260122_11bd1da7c25566a24057.jpeg', 'Casual 33-38', 500000, 'Jean Casual ukuran 33-38', 20, 'Aktif'),
 (8, '1699260148_4c3b21762d76ed7c269c.jpeg', 'Jean ICM', 500000, 'Jean merek ICM', 20, 'Aktif'),
 (10, '1699260230_66443449bd81cbdcbfe7.jpeg', 'Jean dengan variasi warna lainnya', 500000, 'Jean dengan variasi warna lainnya', 20, 'Aktif'),
-(11, '1699260252_ab58ab7127dde3dc4139.jpeg', 'Jean STR', 500000, 'Jean STR dengan variasi kode', 20, 'Aktif');
+(11, '1699260252_ab58ab7127dde3dc4139.jpeg', 'Jean STR', 500000, 'Jean STR dengan variasi kode', 20, 'Aktif'),
+(12, '1699379293_1ca0d2eaf3c8b2156721.jpeg', 'Chinos Stretch 28-33', 500000, 'Jean Chinos Stretch dengan ukuran 28-33', 20, 'Aktif');
 
 -- --------------------------------------------------------
 
@@ -107,7 +107,15 @@ CREATE TABLE `transaksi` (
 
 INSERT INTO `transaksi` (`tgl_transaksi`, `id_transaksi`, `nama_customer`, `alamat`, `no_hp`, `nama_barang`, `jumlah_barang`, `total_bayar`) VALUES
 ('2023-07-14', 'T001', 'Lina', 'jl.suka maju', '082322888113', 'clana jins', 2000, 16789),
-('2023-07-17', 'T002', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819);
+('2023-07-17', 'T002', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-08-17', 'T006', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-09-17', 'T007', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-01-17', 'T009', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-02-17', 'T010', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-12-17', 'T011', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-12-17', 'T012', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-03-17', 'T013', 'jwndwbq', ' sa dha', '87646545678', 'jdwqnhwb', 197382173, 9837819),
+('2023-04-14', 'T15', 'Lina', 'jl.suka maju', '082322888113', 'clana jins', 2000, 16789);
 
 -- --------------------------------------------------------
 
@@ -173,7 +181,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 
 --
 -- AUTO_INCREMENT for table `users`

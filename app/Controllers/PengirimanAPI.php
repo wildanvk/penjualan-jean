@@ -21,38 +21,11 @@ class PengirimanAPI extends ResourceController
         $model = new PengirimanModel();
         $data['pengiriman'] = $model->getPengiriman();
         foreach ($data['pengiriman'] as &$id) {
-            $id['tgl_pengiriman'] = format_tanggal($id['tgl_pengirimana']);
+            $id['tgl_pengiriman'] = format_tanggal($id['tgl_pengiriman']);
         }
         foreach ($data['pengiriman'] as &$id) {
             $id['resi'] = format_text($id['resi']);
         }
         return $this->respond($data);
     }
-    // function __construct()
-    // {
-    //     $this->model = new PengirimanModel();
-    // }
-    // public function index()
-    // {
-    // }
-
-    // public function create()
-    // {
-    //     $data = [
-    //         'tgl_pengiriman'     => $this->request->getVar('tgl_pengiriman'),
-    //         'id_pengiriman'     => $this->request->getVar('id_pengiriman'),
-    //         'id_transaksi'     => $this->request->getVar('id_transaksi'),
-    //         'resi'   => $this->request->getVar('resi'),
-    //     ];
-    //     $this->model->save($data);
-    //     $response = [
-    //         'status' => 201,
-    //         'error' => null,
-    //         'messages' => [
-    //             'success' => 'Berhasil Memasukan Data Pengiriman'
-    //         ]
-    //     ];
-    //     return $this->respond($response);
-    // }
-
 }

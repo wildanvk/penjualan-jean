@@ -23,20 +23,24 @@ use RuntimeException;
 
 /**
  * Class View
+ *
+ * @see \CodeIgniter\View\ViewTest
  */
 class View implements RendererInterface
 {
     use ViewDecoratorTrait;
 
     /**
-     * Data that is made available to the Views.
+     * Saved Data.
      *
      * @var array
      */
     protected $data = [];
 
     /**
-     * Merge savedData and userData
+     * Data for the variables that are available in the Views.
+     *
+     * @var array|null
      */
     protected $tempData;
 
@@ -48,7 +52,7 @@ class View implements RendererInterface
     protected $viewPath;
 
     /**
-     * The render variables
+     * Data for rendering including Caching and Debug Toolbar data.
      *
      * @var array
      */
@@ -174,7 +178,7 @@ class View implements RendererInterface
 
         $fileExt = pathinfo($view, PATHINFO_EXTENSION);
         // allow Views as .html, .tpl, etc (from CI3)
-        $this->renderVars['view'] = empty($fileExt) ? $view . '.php' : $view;
+        $this->renderVars['view'] = ($fileExt === '') ? $view . '.php' : $view;
 
         $this->renderVars['options'] = $options ?? [];
 
@@ -203,12 +207,12 @@ class View implements RendererInterface
             $this->renderVars['file'] = $this->loader->locateFile(
                 $this->renderVars['view'],
                 'Views',
-                empty($fileExt) ? 'php' : $fileExt
+                ($fileExt === '') ? 'php' : $fileExt
             );
         }
 
-        // locateFile will return an empty string if the file cannot be found.
-        if (empty($this->renderVars['file'])) {
+        // locateFile() will return false if the file cannot be found.
+        if ($this->renderVars['file'] === false) {
             throw ViewException::forInvalidFile($this->renderVars['view']);
         }
 
@@ -332,7 +336,7 @@ class View implements RendererInterface
      */
     public function setData(array $data = [], ?string $context = null): RendererInterface
     {
-        if ($context) {
+        if ($context !== null) {
             $data = \esc($data, $context);
         }
 
@@ -352,7 +356,7 @@ class View implements RendererInterface
      */
     public function setVar(string $name, $value = null, ?string $context = null): RendererInterface
     {
-        if ($context) {
+        if ($context !== null) {
             $value = esc($value, $context);
         }
 
@@ -382,6 +386,8 @@ class View implements RendererInterface
 
     /**
      * Specifies that the current view should extend an existing layout.
+     *
+     * @return void
      */
     public function extend(string $layout)
     {
@@ -392,6 +398,8 @@ class View implements RendererInterface
      * Starts holds content for a section within the layout.
      *
      * @param string $name Section name
+     *
+     * @return void
      */
     public function section(string $name)
     {
@@ -404,6 +412,8 @@ class View implements RendererInterface
 
     /**
      * Captures the last section
+     *
+     * @return void
      *
      * @throws RuntimeException
      */
@@ -427,8 +437,13 @@ class View implements RendererInterface
 
     /**
      * Renders a section's contents.
+     *
+     * @param bool $saveData If true, saves data for subsequent calls,
+     *                       if false, cleans the data after displaying.
+     *
+     * @return void
      */
-    public function renderSection(string $sectionName)
+    public function renderSection(string $sectionName, bool $saveData = false)
     {
         if (! isset($this->sections[$sectionName])) {
             echo '';
@@ -438,7 +453,9 @@ class View implements RendererInterface
 
         foreach ($this->sections[$sectionName] as $key => $contents) {
             echo $contents;
-            unset($this->sections[$sectionName][$key]);
+            if ($saveData === false) {
+                unset($this->sections[$sectionName][$key]);
+            }
         }
     }
 
@@ -463,6 +480,8 @@ class View implements RendererInterface
 
     /**
      * Logs performance data for rendering a view.
+     *
+     * @return void
      */
     protected function logPerformance(float $start, float $end, string $view)
     {

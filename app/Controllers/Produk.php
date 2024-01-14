@@ -70,7 +70,6 @@ class Produk extends BaseController
             $nama_gambar = $this->request->getPost('old_gambar_produk');
         } else {
             $nama_gambar = $gambar_produk->getRandomName();
-            $gambar_produk->move(ROOTPATH . 'public/img', $nama_gambar);
             unlink(ROOTPATH . 'public/img/' . $this->request->getPost('old_gambar_produk'));
         }
 
@@ -89,7 +88,9 @@ class Produk extends BaseController
             session()->setFlashdata('errors', $validation->getErrors());
             return redirect()->to(base_url('produk/edit/' . $this->request->getPost('id_produk')))->withInput();
         } else {
-
+            if ($gambar_produk->getError() == 4) {
+                $gambar_produk->move(ROOTPATH . 'public/img', $nama_gambar);
+            }
 
             $model = new ProdukModel();
             $ubah = $model->updateProduk($data, $data['id_produk']);

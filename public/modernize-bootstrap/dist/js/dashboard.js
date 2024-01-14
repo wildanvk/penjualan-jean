@@ -3,31 +3,14 @@ $(function () {
   // Carousel
   //
   $(".counter-carousel").owlCarousel({
-    loop: true,
+    loop: false,
     margin: 30,
     mouseDrag: true,
     autoplay: true,
     autoplayTimeout: 4000,
     autoplaySpeed: 2000,
     nav: false,
-    rtl: true,
-    responsive: {
-      0: {
-        items: 2,
-      },
-      576: {
-        items: 2,
-      },
-      768: {
-        items: 3,
-      },
-      1200: {
-        items: 5,
-      },
-      1400: {
-        items: 6,
-      },
-    },
+    rtl: false,
   });
   // =====================================
   // Profit
@@ -60,8 +43,8 @@ $(function () {
         barHeight: "60%",
         columnWidth: "20%",
         borderRadius: [6],
-        borderRadiusApplication: 'end',
-        borderRadiusWhenStacked: 'all'
+        borderRadiusApplication: "end",
+        borderRadiusWhenStacked: "all",
       },
     },
     dataLabels: {
@@ -99,7 +82,6 @@ $(function () {
         "21/08",
         "22/08",
       ],
-
     },
     yaxis: {
       tickAmount: 4,
@@ -130,7 +112,7 @@ $(function () {
         startAngle: 0,
         endAngle: 360,
         donut: {
-          size: '75%',
+          size: "75%",
         },
       },
     },
@@ -201,9 +183,8 @@ $(function () {
         opacityTo: 0,
         stops: [20, 180],
       },
-      opacity:0.5
+      opacity: 0.5,
     },
-
 
     markers: {
       size: 0,
@@ -241,7 +222,14 @@ $(function () {
       fontFamily: "Plus Jakarta Sans', sans-serif",
       foreColor: "#adb0bb",
     },
-    colors: ["#f2f6fad9", "#f2f6fad9", "var(--bs-primary)", "#f2f6fad9", "#f2f6fad9", "#f2f6fad9"],
+    colors: [
+      "#f2f6fad9",
+      "#f2f6fad9",
+      "var(--bs-primary)",
+      "#f2f6fad9",
+      "#f2f6fad9",
+      "#f2f6fad9",
+    ],
     plotOptions: {
       bar: {
         borderRadius: 4,
@@ -327,7 +315,6 @@ $(function () {
         stops: [20, 180],
       },
     },
-
 
     markers: {
       size: 0,
@@ -464,7 +451,7 @@ $(function () {
       gradient: {
         shadeIntensity: 0,
         inverseColors: false,
-        opacityFrom: 0.20,
+        opacityFrom: 0.2,
         opacityTo: 0,
         stops: [20, 180],
       },

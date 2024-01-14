@@ -17,6 +17,25 @@ class TransaksiModel extends Model
         }
     }
 
+    public function getTransaksiByBulan($bulan)
+    {
+        if ($bulan == false) {
+            return $this->findAll();
+        } else {
+            return $this->getWhere(['MONTH(tgl_transaksi)' => $bulan]);
+        }
+    }
+
+    public function getGrafikTransaksi()
+    {
+        return $this->select('MONTHNAME(tgl_transaksi) as bulan, COUNT(id_transaksi) as jumlah')
+            ->where('YEAR(tgl_transaksi)', 2023)
+            ->groupBy('MONTH(tgl_transaksi)')
+            ->orderBy('MONTH(tgl_transaksi)', 'ASC')
+            ->get()
+            ->getResultArray();
+    }
+
     public function getLastTransaksi()
     {
         return $this->orderBy('id_transaksi', 'DESC')

@@ -13,7 +13,7 @@ class Pengiriman extends BaseController
     {
         $model = new PengirimanModel();
         $data['Pengiriman'] = $model->getPengiriman();
-        echo view('modernize/master/pengiriman/index', $data);
+        echo view('modernize/pengiriman/index', $data);
     }
 
     public function input()
@@ -54,7 +54,7 @@ class Pengiriman extends BaseController
         $data['id_pengiriman'] = $id_pengiriman;
         $data['data_transaksi'] = $modelTransaksi->getTransaksi();
         // dd($data['data_transaksi']);
-        return view('modernize/master/pengiriman/input', $data);
+        return view('modernize/pengiriman/input', $data);
     }
     public function store()
     {
@@ -85,7 +85,7 @@ class Pengiriman extends BaseController
     {
         $model = new PengirimanModel();
         $data['pengiriman'] = $model->getPengiriman($id)->getRowArray();
-        echo view('modernize/master/pengiriman/edit', $data);
+        echo view('modernize/pengiriman/edit', $data);
     }
 
     public function update()
@@ -129,8 +129,8 @@ class Pengiriman extends BaseController
         $dompdf = new dompdf();
         $model = new PengirimanModel();
         $data['Pengiriman'] = $model->getPengiriman();
-        // echo view('modernize/master/pengiriman/print', $data);
-        $html = view('modernize/master/pengiriman/print', $data);
+        // echo view('modernize/pengiriman/print', $data);
+        $html = view('modernize/pengiriman/print', $data);
         $dompdf->loadhtml($html);
         $dompdf->setPaper('A4', 'landscape');
         $dompdf->render();
@@ -145,6 +145,6 @@ class Pengiriman extends BaseController
         $bulan = $this->request->getVar('bulan');
         $data['pengiriman'] = $pengiriman->getPengirimanByBulan($bulan);
         $data['bulan'] = $bulan;
-        return view('modernize/master/pengiriman/print', $data);
+        return view('modernize/pengiriman/print', $data);
     }
 }

@@ -27,6 +27,7 @@ class Auth implements FilterInterface
     {
         //Jika User belum login
         if (!session()->get('logged_in')) {
+            session()->setFlashdata('forbidden', 'Akses dilarang! Silahkan login terlebih dahulu');
             return redirect()->to('/auth');
         }
     }

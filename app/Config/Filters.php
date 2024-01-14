@@ -8,8 +8,6 @@ use CodeIgniter\Filters\DebugToolbar;
 use CodeIgniter\Filters\Honeypot;
 use CodeIgniter\Filters\InvalidChars;
 use CodeIgniter\Filters\SecureHeaders;
-use App\Filters\Auth;
-use App\Filters\FilterGudang;
 
 class Filters extends BaseConfig
 {
@@ -23,8 +21,7 @@ class Filters extends BaseConfig
         'honeypot'      => Honeypot::class,
         'invalidchars'  => InvalidChars::class,
         'secureheaders' => SecureHeaders::class,
-        'auth'          => Auth::class,
-        'filterGudang'  => FilterGudang::class,
+        'auth'          => \App\Filters\Auth::class,
     ];
 
     /**
@@ -32,9 +29,9 @@ class Filters extends BaseConfig
      * applied before and after every request.
      */
     public array $globals = [
-        // 'before' => [
-        //     'auth' => ['except' => ['auth', 'auth/*', '/']],
-        // ],
+        'before' => [
+            'auth' => ['except' => ['auth', 'auth/*', '/']],
+        ],
         // 'after' => [
         //     'auth' => ['except' => ['dashboard', 'supplier', 'supplier/*', 'barangmentah', 'barangmentah/*', 'barangjadi', 'barangjadi/*', 'stokbarangmentah', 'stokbarangmentah/*', 'stokbarangjadi', 'stokbarangjadi/*', 'barangmasukmentah', 'barangmasukmentah/*', 'barangkeluarjadi', 'barangkeluarjadi/*', 'barangkeluarmentah', 'barangkeluarmentah/*', 'logout', 'logout/*']],
         // ],
