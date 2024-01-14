@@ -9,7 +9,7 @@
 5. Jalankan perintah `php spark serve` menggunakan Git bash atau terminal VSCode.
 6. Buka browser dan ketikkan `localhost:8080` pada address bar.
 
-Note : Halaman default dari aplikasi penjualan ini adalah halaman katalog untuk user, jika ingin mengakses halaman admin, silakan ketikkan `localhost:8080/auth` atau `localhost:8080/dashboard` pada address bar.
+Note : Halaman default dari aplikasi penjualan ini adalah halaman katalog untuk user, jika ingin mengakses halaman admin, silakan pencet tombol `Area Admin` pada Navbar atau ketikkan `localhost:8080/auth` pada address bar.
 
 ## What is CodeIgniter?
 
