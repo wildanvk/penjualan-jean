@@ -30,7 +30,7 @@ class Filters extends BaseConfig
      */
     public array $globals = [
         'before' => [
-            'auth' => ['except' => ['auth', 'auth/*', '/']],
+            'auth' => ['except' => ['auth', 'auth/*', '/', '/katalog', '/katalog/*', 'admin', 'admin/*']],
         ],
         // 'after' => [
         //     'auth' => ['except' => ['dashboard', 'supplier', 'supplier/*', 'barangmentah', 'barangmentah/*', 'barangjadi', 'barangjadi/*', 'stokbarangmentah', 'stokbarangmentah/*', 'stokbarangjadi', 'stokbarangjadi/*', 'barangmasukmentah', 'barangmasukmentah/*', 'barangkeluarjadi', 'barangkeluarjadi/*', 'barangkeluarmentah', 'barangkeluarmentah/*', 'logout', 'logout/*']],

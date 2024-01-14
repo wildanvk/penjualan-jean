@@ -9,7 +9,6 @@ class Auth extends BaseController
 {
     public function index()
     {
-        $session = session();
         return view('modernize/auth/login');
     }
 
